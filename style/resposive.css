@@ -55,8 +55,9 @@
 
   /* main section two starts hare
 ========================== */
-  .main-section-two {
-    padding: 20px;
+  .main-section-two,
+  .main-section-three {
+    padding: 25px;
   }
   .gallery-section {
     display: flex;
@@ -65,5 +66,28 @@
 
   .gallery-article {
     width: 300px;
+  }
+
+  /* Section Three Starts hare 
+=============================*/
+  .container {
+    flex-direction: column;
+  }
+  .box-1,
+  .box-2 {
+    width: 100%;
+  }
+
+  /* Footer section Starts hare
+  =============================== */
+  footer {
+    padding: 20px;
+    margin: 80px 15px;
+  }
+  .footer-article {
+    width: 422px;
+  }
+  hr {
+    width: 392px;
   }
 }
