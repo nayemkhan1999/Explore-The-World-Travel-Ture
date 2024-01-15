@@ -1,0 +1,46 @@
+@media screen and (max-width: 590px) {
+  .nav-bar,
+  .logo,
+  .menu,
+  .content,
+  .button-section {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .section-one,
+  .section-tow {
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+  }
+  .button-section {
+    width: 287px;
+    height: 288px;
+    padding: 50px;
+    top: 41%;
+  }
+
+  .btn-primary {
+    width: 258px;
+    height: 55px;
+    padding: 11px;
+  }
+  .description-primary {
+    width: 288px;
+    font-size: 12px;
+    top: 35%;
+  }
+  .img-text2 {
+    width: 318px;
+    font-size: 42px;
+    top: 24%;
+  }
+  .img-text1 {
+    top: 14%;
+    font-size: 24px;
+  }
+  .img-section {
+    padding: 20px;
+    height: 650px;
+  }
+}
