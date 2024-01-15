@@ -43,4 +43,27 @@
     padding: 20px;
     height: 650px;
   }
+  /* Header section Ends */
+
+  /* Main section starts hare
+  ========================== */
+  .main-section-one {
+    flex-direction: column;
+    gap: 25px;
+    padding: 25px;
+  }
+
+  /* main section two starts hare
+========================== */
+  .main-section-two {
+    padding: 20px;
+  }
+  .gallery-section {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .gallery-article {
+    width: 300px;
+  }
 }
