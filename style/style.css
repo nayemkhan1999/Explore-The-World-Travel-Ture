@@ -444,6 +444,118 @@ ul li {
   background-repeat: no-repeat;
   position: relative;
 }
+
+/* Section Seven and this section is optional
+=========================================== */
+.optional-section {
+  max-width: 100%;
+  /* min-height: 800px; */
+  padding: 53px 135px;
+  margin: 0px auto;
+  margin-top: 100px;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+.video-text-content {
+  width: 50%;
+  min-height: 400px;
+}
+.video-content {
+  width: 50%;
+  min-height: 400px;
+  position: relative;
+}
+
+.center-text {
+  color: #fff;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.video-content img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 16px;
+}
+
+.un-order-list li {
+  color: #131318;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 26px;
+  margin-left: 15px;
+}
+
+/* Section Eight and optional */
+.input-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 454px;
+
+  /* padding: 20px; */
+}
+.padding-need {
+  padding: 25px;
+  /* margin-top: 79px; */
+}
+#name,
+#email,
+.input-btn {
+  width: 410px;
+  height: 52px;
+  margin-top: 16px;
+}
+#name,
+#email {
+  border-radius: 16px;
+  border: none;
+  background: rgba(19, 19, 24, 0.05);
+  color: rgba(19, 19, 24, 0.3);
+  font-size: 16px;
+  font-weight: 400;
+  padding: 20px;
+}
+
+.offer-btn {
+  width: 324px;
+  height: 120px;
+  transform: rotate(-19.628deg);
+}
+.size-big {
+  font-size: 32px;
+  font-weight: 800px;
+}
+.size-small {
+  font-size: 20px;
+  font-weight: 400px;
+}
+.last-section .last-img {
+  width: 119%;
+  margin-left: -80px;
+}
+
+.last-section {
+  position: relative;
+}
+
+.offer-btn {
+  position: absolute;
+  top: 56%;
+  left: 38%;
+}
+
+.margin-down {
+  margin-top: -20px;
+}
 /* Footer section Starts Hare 
 ============================*/
 

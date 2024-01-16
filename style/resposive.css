@@ -1,4 +1,4 @@
-@media screen and (max-width: 590px) {
+@media screen and (max-width: 580px) {
   .content,
   .button-section {
     flex-direction: column;
@@ -70,8 +70,15 @@
   ========================== */
   .main-section-one {
     flex-direction: column;
-    gap: 25px;
+    gap: 40px;
     padding: 25px;
+  }
+  .section-img img {
+    width: 471px;
+  }
+  .text-section,
+  .main-article {
+    width: 438px;
   }
 
   /* main section two starts hare
@@ -103,7 +110,7 @@
   =============================== */
   footer {
     padding: 20px;
-    margin: 80px 15px;
+    margin: 0px 15px;
   }
   .footer-article {
     width: 422px;
@@ -151,5 +158,49 @@
     flex-direction: column;
     gap: 31px;
     padding-top: 13px;
+  }
+
+  /* Section seven
+  =============== */
+  .optional-section {
+    flex-direction: column;
+    padding: 20px;
+    width: 500px;
+    margin: 0px;
+  }
+  .video-content img {
+    min-width: 150%;
+    height: 306px;
+    object-fit: cover;
+    margin-top: 52px;
+    margin-left: -75px;
+    border-radius: 40px;
+    padding: 20px;
+  }
+  .optional-article {
+    width: 100%;
+  }
+  .main-text {
+    width: 355px;
+  }
+  .video-text-content,
+  .video-content {
+    width: 100%;
+    height: 457px;
+    padding: 50px;
+  }
+  /* Section eight  */
+  .offer-btn {
+    top: 55%;
+    left: 53%;
+    width: 231px;
+    height: 88px;
+  }
+  .input-section {
+    width: 386px;
+  }
+
+  .gallery-heading {
+    width: 523px;
   }
 }
