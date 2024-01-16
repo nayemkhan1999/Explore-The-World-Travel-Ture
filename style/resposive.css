@@ -1,11 +1,32 @@
 @media screen and (max-width: 590px) {
-  .nav-bar,
-  .logo,
-  .menu,
   .content,
   .button-section {
     flex-direction: column;
     gap: 20px;
+  }
+
+  .menu {
+    display: none;
+  }
+  #check {
+    font-size: 2.5rem;
+    color: #ff5400;
+    line-height: 80px;
+    margin-left: auto;
+    cursor: pointer;
+    visibility: visible;
+  }
+  .logo {
+    display: flex;
+    width: 100%;
+    gap: 10px;
+  }
+  .logo h1,
+  .explore-btn {
+    font-size: 1.5rem;
+  }
+  #nav-logo {
+    min-width: 18px;
   }
   .section-one,
   .section-tow {
