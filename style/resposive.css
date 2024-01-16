@@ -1,4 +1,7 @@
 @media screen and (max-width: 580px) {
+  body {
+    padding-right: 15px;
+  }
   .content,
   .button-section {
     flex-direction: column;
@@ -74,11 +77,12 @@
     padding: 25px;
   }
   .section-img img {
-    width: 471px;
+    width: 365px;
+    margin-left: 13px;
   }
   .text-section,
   .main-article {
-    width: 438px;
+    width: 318px;
   }
 
   /* main section two starts hare
@@ -169,8 +173,8 @@
     margin: 0px;
   }
   .video-content img {
-    min-width: 150%;
-    height: 306px;
+    min-width: 146%;
+    height: 312px;
     object-fit: cover;
     margin-top: 52px;
     margin-left: -75px;
@@ -191,8 +195,8 @@
   }
   /* Section eight  */
   .offer-btn {
-    top: 55%;
-    left: 53%;
+    top: 58%;
+    left: 46%;
     width: 231px;
     height: 88px;
   }
@@ -201,13 +205,13 @@
   }
 
   .gallery-heading {
-    width: 523px;
+    width: 442px;
   }
 
   .video-content video {
-    width: 132%;
+    width: 131%;
     height: 266px;
     margin-top: 97px;
-    margin-left: -32px;
+    margin-left: -48px;
   }
 }
