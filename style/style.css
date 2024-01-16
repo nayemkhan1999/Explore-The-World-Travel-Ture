@@ -479,7 +479,7 @@ ul li {
   transform: translate(-50%, -50%);
 }
 
-.video-content img {
+.video-content video {
   width: 100%;
   height: 400px;
   object-fit: cover;
@@ -549,7 +549,7 @@ ul li {
 
 .offer-btn {
   position: absolute;
-  top: 56%;
+  top: 52%;
   left: 38%;
 }
 

@@ -203,4 +203,11 @@
   .gallery-heading {
     width: 523px;
   }
+
+  .video-content video {
+    width: 132%;
+    height: 266px;
+    margin-top: 97px;
+    margin-left: -32px;
+  }
 }
