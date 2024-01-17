@@ -1,0 +1,51 @@
+/* Mobile mini device 400px */
+@media screen and (max-width: 400px) {
+  .gallery-heading {
+    width: 105%;
+  }
+  .book-now {
+    width: 86%;
+    height: 81%;
+    top: 14%;
+    left: 9%;
+  }
+  .main-text {
+    width: 117%;
+    margin-left: -4%;
+  }
+  .input-section {
+    width: 144%;
+    margin-left: -19%;
+  }
+  #name,
+  #email,
+  .input-btn {
+    width: 100%;
+    margin-top: 21px;
+  }
+
+  .last-section .last-img {
+    width: 149%;
+    height: 68%;
+    padding: 23px;
+  }
+
+  .offer-btn {
+    top: 35%;
+    left: 35%;
+    width: 62%;
+    height: 17%;
+  }
+  .footer-article {
+    width: 99%;
+  }
+  footer {
+    padding: 14px;
+  }
+  hr {
+    width: 74%;
+  }
+  .size-big {
+    font-size: 20px;
+  }
+}
